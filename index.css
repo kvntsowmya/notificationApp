@@ -1,0 +1,42 @@
+.info-msg {
+  background-color: #0b69ff;
+}
+.success-msg {
+  background-color: #2dca73;
+}
+.warning-msg {
+  background-color: #ffb800;
+}
+.error-msg {
+  background-color: #ff0b37;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.icon {
+  height: 20px;
+  margin-right: 20px;
+}
+.message {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
